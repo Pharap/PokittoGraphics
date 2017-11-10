@@ -42,39 +42,40 @@
 			</g>
 		</g>
 		<!-- Labels -->
-		<g font-size="10" font-family="sans-serif" fill="black" stroke="none" style="writing-mode: tb;">
+<!-- 		<g font-size="10" font-family="sans-serif" fill="black" stroke="none" style="writing-mode: tb;"> -->
+		<g font-size="10" font-family="sans-serif" fill="black" stroke="none">
 			<!-- Top Labels -->
-			<g transform="translate(5,5)">
-				<text x="5">EXT 1</text>
-				<text x="19">EXT 3</text>
-				<text x="33">EXT 5</text>
-				<text x="47">EXT 7</text>
-				<text x="61">EXT 9</text>
-				<text x="75">EXT 11</text>
-				<text x="89">EXT 13</text>
-				<text x="103">EXT 15</text>
-				<text x="117">EXT 17</text>
-				<text x="131">I2C CLK</text>
-				<text x="145">SWD CLK</text>
-				<text x="159">RESET</text>
-				<text x="173">GND</text>
+			<g transform="translate(5,50)">
+				<text x="5" transform="rotate(-90, 5, 0)" dominant-baseline="central">EXT 1</text>
+				<text x="19" transform="rotate(-90, 19, 0)" dominant-baseline="central">EXT 3</text>
+				<text x="33" transform="rotate(-90, 33, 0)" dominant-baseline="central">EXT 5</text>
+				<text x="47" transform="rotate(-90, 47, 0)" dominant-baseline="central">EXT 7</text>
+				<text x="61" transform="rotate(-90, 61, 0)" dominant-baseline="central">EXT 9</text>
+				<text x="75" transform="rotate(-90, 75, 0)" dominant-baseline="central">EXT 11</text>
+				<text x="89" transform="rotate(-90, 89, 0)" dominant-baseline="central">EXT 13</text>
+				<text x="103" transform="rotate(-90, 103, 0)" dominant-baseline="central">EXT 15</text>
+				<text x="117" transform="rotate(-90, 117, 0)" dominant-baseline="central">EXT 17</text>
+				<text x="131" transform="rotate(-90, 131, 0)" dominant-baseline="central">I2C CLK</text>
+				<text x="145" transform="rotate(-90, 145, 0)" dominant-baseline="central">SWD CLK</text>
+				<text x="159" transform="rotate(-90, 159, 0)" dominant-baseline="central">RESET</text>
+				<text x="173" transform="rotate(-90, 173, 0)" dominant-baseline="central">GND</text>
 			</g>
 			
 			<!-- Bottom Labels -->
-			<g transform="translate(5,95)">
-				<text x="5">EXT 0</text>
-				<text x="19">EXT 2</text>
-				<text x="33">EXT 4</text>
-				<text x="47">EXT 6</text>
-				<text x="61">EXT 8</text>
-				<text x="75">EXT 10</text>
-				<text x="89">EXT 12</text>
-				<text x="103">EXT 14</text>
-				<text x="117">EXT 16</text>
-				<text x="131">I2C SDA</text>
-				<text x="145">SWD IO</text>
-				<text x="159">AUDIO OUT</text>
-				<text x="173">3V3</text>
+			<g transform="translate(5,95)" text-anchor="end">
+				<text x="5" transform="rotate(-90, 5, 0)" dominant-baseline="central">EXT 0</text>
+				<text x="19" transform="rotate(-90, 19, 0)" dominant-baseline="central">EXT 2</text>
+				<text x="33" transform="rotate(-90, 33, 0)" dominant-baseline="central">EXT 4</text>
+				<text x="47" transform="rotate(-90, 47, 0)" dominant-baseline="central">EXT 6</text>
+				<text x="61" transform="rotate(-90, 61, 0)" dominant-baseline="central">EXT 8</text>
+				<text x="75" transform="rotate(-90, 75, 0)" dominant-baseline="central">EXT 10</text>
+				<text x="89" transform="rotate(-90, 89, 0)" dominant-baseline="central">EXT 12</text>
+				<text x="103" transform="rotate(-90, 103, 0)" dominant-baseline="central">EXT 14</text>
+				<text x="117" transform="rotate(-90, 117, 0)" dominant-baseline="central">EXT 16</text>
+				<text x="131" transform="rotate(-90, 131, 0)" dominant-baseline="central">I2C SDA</text>
+				<text x="145" transform="rotate(-90, 145, 0)" dominant-baseline="central">SWD IO</text>
+				<text x="159" transform="rotate(-90, 159, 0)" dominant-baseline="central">AUDIO OUT</text>
+				<text x="173" transform="rotate(-90, 173, 0)" dominant-baseline="central">3V3</text>
 			</g>
 		</g>
 	</g>
